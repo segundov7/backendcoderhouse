@@ -1,0 +1,32 @@
+<h1>Vista de Productos</h1>
+<br>
+
+{{#if hayProductos }}
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Foto</th>
+        </tr>
+       
+        {{#each productos}}
+        <tr>
+            <td>
+                {{this.title}}
+            </td>
+            <td>
+                {{this.price}}
+            </td>
+            <td>
+                {{this.thumbnail}}
+            </td>
+        </tr>
+        {{/each}}
+    </table>
+{{else}}
+<h3>No se encontraron productos</h3>
+{{/if}}
+<br>
+<a href="/" type="button">Cargar un nuevo producto</a>
+
+   
