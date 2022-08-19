@@ -20,7 +20,7 @@ app.set('view engine', 'pug');
  })
 
  app.get('/productos', (req, res) => {
-     const productos = productosApi.listAll()
+     const productos = productosApi.listarAll()
      conProductos = productos.length > 0 ? true : false;
      res.render('vista', {productos, conProductos});
  });
