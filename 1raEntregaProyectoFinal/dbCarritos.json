@@ -1,0 +1,14 @@
+[
+    {
+      "timestamp": 1661897259650,
+      "productos": [
+        {
+          "title": "Zapatos",
+          "price": "2000",
+          "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_936729-MLA45213706383_032021-W.jpg",
+          "id": "4"
+        }
+      ],
+      "id": "1"
+    }
+  ]
